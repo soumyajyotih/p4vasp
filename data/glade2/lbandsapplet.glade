@@ -409,10 +409,10 @@
 			  </child>
 
 			  <child>
-			    <widget class="GtkCheckButton" id="dx2">
+			    <widget class="GtkCheckButton" id="x2-y2">
 			      <property name="visible">True</property>
 			      <property name="can_focus">True</property>
-			      <property name="label" translatable="yes">dx2</property>
+			      <property name="label" translatable="yes">x2-y2</property>
 			      <property name="use_underline">True</property>
 			      <property name="relief">GTK_RELIEF_NORMAL</property>
 			      <property name="active">True</property>

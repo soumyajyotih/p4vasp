@@ -32,10 +32,10 @@ import time
 import gtk
 
 
-orbitals  =map(intern,["s","px","py","pz","dxy","dyz","dxz","dz2","dx2",
+orbitals  =map(intern,["s","px","py","pz","dxy","dyz","dxz","dz2","x2-y2",
                        "f1","f2","f3","f4","f5","f6","f7"])
 orbitals_p=map(intern,["px","py","pz"])
-orbitals_d=map(intern,["dxy","dyz","dxz","dz2","dx2"])
+orbitals_d=map(intern,["dxy","dyz","dxz","dz2","x2-y2"])
 orbitals_f=map(intern,["f1","f2","f3","f4","f5","f6","f7"])
 
 class Line:

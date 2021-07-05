@@ -226,7 +226,7 @@ class SQLSystemPM(SystemPM):
         spins.sort()
         if spins[0]<0:
             spins.reverse()
-        sorbitals=map(intern,["s","p","px","py","pz","d","dxy","dyz","dxz","dz2","dx2","f",
+        sorbitals=map(intern,["s","p","px","py","pz","d","dxy","dyz","dxz","dz2","x2-y2","f",
                            "f1","f2","f3","f4","f5","f6","f7"])
         for x in orbitals[:]:
             if x not in sorbitals:

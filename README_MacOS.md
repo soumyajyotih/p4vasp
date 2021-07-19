@@ -15,6 +15,7 @@ sudo port install gettext
 sudo port install py-pygtk +x11
 sudo port -v -s install fltk
 ```
+If fltk already installed then uninstall and install it with the above command. 
 Also, as we are going to use clang(gcc) that comes with the command-line tools, if you have installed gcc via macports, deactivate it:
 ```
 sudo port select --set gcc none

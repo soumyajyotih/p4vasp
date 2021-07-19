@@ -1,5 +1,5 @@
 p4vasp compillation in MacOS:
-(Tested on macOS 11.1)
+(Tested on macOS 11.4)
 
 0) Install Xcode command-line tools:
 ```
